@@ -111,7 +111,7 @@ for url in urls:
     ws.append(list(dados_extraidos.values()))
     time.sleep(2)  
 
-wb.save('PREF_ATA.xlsx')
+wb.save('PREF_SP.xlsx')
 print("Dados salvos em 'PREF_SP.xlsx' com sucesso!")
 
 driver.quit()
